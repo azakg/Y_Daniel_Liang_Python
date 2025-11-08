@@ -12,10 +12,3 @@ class Circle:
 
     def setRadius(self, radius):
         self.radius = radius
-
-
-CO = Circle(5)
-print(CO.getPerimeter())
-
-CO2 = Circle()
-print(CO2.getPerimeter())
