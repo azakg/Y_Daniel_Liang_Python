@@ -15,3 +15,21 @@ def increment(c, times):
     c.count += 1
     times += 1
 main()
+#___________________________________________________________________________________
+class Count2:
+    def __init__(self, count = 0):
+        self.count = count
+
+def main():
+    c = Count2()
+    n = 1
+    m(c, n)
+
+    print("count is", c.count)
+    print("n is", n)
+
+def m(c, n):
+    c  = Count2(5)
+    n = 3
+
+main()
