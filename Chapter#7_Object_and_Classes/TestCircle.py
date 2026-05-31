@@ -1,6 +1,7 @@
 from Circle import Circle
 
-def main():
-    circle1 = Circle(5)
-    print(f"The area of the circle of radius {circle1.radius} is: {circle1.getArea()}")
-main()
+c1 = Circle()
+c2 = Circle(4)
+
+print(c1.getArea())
+print(c2.getArea())
